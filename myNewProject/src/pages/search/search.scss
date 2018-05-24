@@ -1,0 +1,19 @@
+page-search {
+  .back-button.show-back-button{
+    display: none;
+  }
+  ion-searchbar{
+    display: inline-block;
+    width: 80%;
+  }
+  ion-navbar .button-ios-light {
+    color: green;
+    background-color: #f4f4f4;
+  }
+  ion-navbar .searchbar-ios .searchbar-search-icon{
+    top: 11px;
+  }
+  ion-navbar .searchbar-ios {
+    top: 3px;
+  }
+}

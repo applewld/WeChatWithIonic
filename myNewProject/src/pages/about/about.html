@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>通讯录</ion-title>
+    <ion-icon name="person-add"></ion-icon>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div id="search">
+    <div id="insearch" (click)="goSearchPage()">
+      <ion-icon name="search"></ion-icon>
+      <span>搜索</span>
+      <ion-icon name="mic"></ion-icon>
+    </div>
+  </div>
+  <ion-list>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/newFriends.png">
+      </ion-avatar>
+      <span>新的朋友</span>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/groupChat.png">
+      </ion-avatar>
+      <span>群聊</span>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/label.png">
+      </ion-avatar>
+      <span>标签</span>
+    </ion-item>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/imgs/offcialAccounts.png">
+      </ion-avatar>
+      <span>公众号</span>
+    </ion-item>
+  </ion-list>
+
+  <ion-item-group>
+      <ion-item-divider color="light">A</ion-item-divider>
+      <ion-item>Angola</ion-item>
+      <ion-item>Argentina</ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider color="light">B</ion-item-divider>
+    <ion-item>Ba</ion-item>
+    <ion-item>Bale</ion-item>
+  </ion-item-group>
+</ion-content>
