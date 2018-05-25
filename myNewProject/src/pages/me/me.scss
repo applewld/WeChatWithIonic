@@ -10,7 +10,48 @@ page-me {
   .scroll-content{
     background-color: #eaeaea;
   }
-  #first{
+  .first{
     margin-top: 15px;
+  }
+
+  .first .item-ios ion-avatar ion-img{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+  }
+  .first .item-ios ion-avatar img{
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+  }
+  .second .item-ios ion-avatar ion-img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 36px;
+    height: 36px;
+  }
+  .second .item-ios ion-avatar img{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+  }
+  .second ion-label{
+    font-size: 20px;
+  }
+
+  .first ion-icon{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: #bdbdbd;
+    font-size: 25px;
+  }
+  .second ion-icon{
+    float: right;
+    color: #bdbdbd;
+    font-size: 25px;
   }
 }
